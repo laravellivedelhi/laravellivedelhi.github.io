@@ -58,6 +58,7 @@ header.masthead h1 {
 .showcase .showcase-img {
   min-height: 30rem;
   background-size: cover;
+  background-position: center;
 }
 
 @media (min-width: 768px) {
@@ -113,7 +114,7 @@ header.masthead h1 {
 
 .call-to-action .overlay {
   position: absolute;
-  background-color: #E91E63;
+  background-color: #dc3545;
   height: 100%;
   width: 100%;
   top: 0;
@@ -128,9 +129,9 @@ footer.footer {
 
 
 .navbar-brand {
-  color: red !important;
+  color: #dc3545 !important;
 }
 
 a{
-  color:#e91e1e;
+  color:#dc3545;
 }
