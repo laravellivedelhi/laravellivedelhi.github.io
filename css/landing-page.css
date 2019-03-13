@@ -21,7 +21,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/laravelliveindia-delhi20171-1.jpg") no-repeat center center;
+  background: url("../img/background/cover.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -134,4 +134,15 @@ footer.footer {
 
 a{
   color:#dc3545;
+}
+
+
+.meetup{
+  background:url('../img/background/laravel_live_delhi_march.jpeg') repeat-x;
+  color:#fff;
+  opacity:0.9;
+}
+
+.meetup a{
+  color:#efefef;
 }
