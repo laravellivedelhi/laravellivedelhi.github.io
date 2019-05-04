@@ -30,6 +30,7 @@
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41994368-7"></script>
+  
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -45,7 +46,13 @@
 </head>
 
 <body class="laravel_delhi">
-
+  <div class="pre_loader">
+    <div class="loading_info">
+        <img src="img/logo/favicon_white.png" alt="LaravelLive Delhi" width="100">
+        <p>@LaravelLiveDelhi</p>
+        <p>Please wait...</p>
+    </div>
+  </div>
   <!-- Navigation -->
   <nav class="navbar navbar-light bg-light static-top">
     <div class="container">
@@ -74,14 +81,14 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h4>Upcoming event</h4>
-          <h1 >LaravelLive Delhi - May Chapter</h1>
-          <h3 class="mb-5">11:00 AM - 2:00 PM Sunday, 25th May 2019</h3>
+          <h4 class="meetup_status">...</h4>
+          <h1 class="meetup_name">LaravelLive Delhi...</h1>
+          <h3 class="mb-5"><span class="meetup_time">11:00 AM - 2:00 PM</span> - <span class="meetup_day">Sunday</span>, <span class="meetup_date">Loading date</span></h3>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
           <div class="clearfix"></div>
         <p class="text-center">
-          <a target="_blank" href="https://allevents.in/gurugram/80001660220192">
+          <a target="_blank" class="meetup_ticket" href="">
             <button class="btn btn-lg btn-danger"><i class="fas fa-ticket-alt fa-lg"></i> Register now</button>
           </a>
 
@@ -194,7 +201,7 @@
   
 
   <!-- Call to Action -->
-  <section class="call-to-action text-white text-center d-none">
+  <section class="call-to-action text-white text-center">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -202,12 +209,10 @@
           <h2 class="mb-4">Ready to Thrive at LaravelLive Delhi?</h2>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <!-- <a target="_blank" href="https://allevents.in/mumbai/laravellive-india-2019-conference/80004936401997"> 
+          <a target="_blank" class="meetup_ticket" href="#"> 
             <button class="btn btn-lg btn-light"><i class="fab fa-ticket"></i> Buy Tickets</button>
-          -->
-          <a target="_blank" href="https://allevents.in/gurugram/laravellive-delhi-march-chapter-meetup/80007261754075">
-            <button class="btn btn-lg btn-light"><i class="fas fa-paper-plane-o"></i> Buy Tickets</button>
-          </a>
+          
+         
         </div>
       </div>
     </div>
@@ -267,6 +272,8 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/laravelDelhi.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 </body>
 
