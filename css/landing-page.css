@@ -21,7 +21,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/laravelliveindia-delhi20171-1.jpg") no-repeat center center;
+  background: url("../img/LaravelLive-delhi-march-2019.jpeg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -133,5 +133,31 @@ footer.footer {
 }
 
 a{
+  color:#dc3545;
+}
+
+
+.meetup{
+  background:url('../img/background/laravel_live_delhi_march.jpeg') repeat-x;
+  color:#fff;
+  opacity:0.9;
+}
+
+.meetup a{
+  color:#efefef;
+}
+
+.pre_loader{
+  width:100%;
+  height:100%;
+  position:fixed;
+  z-index: 9999;
+  background:#fff;
+}
+
+.loading_info{
+  margin: 200px auto;
+  width: 200px;
+  text-align: center !important;
   color:#dc3545;
 }

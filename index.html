@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="LaravelDelhi is an Open soruce community for Laravel development and brings all open source developer to learn and create stuff for everyone">
   <meta name="author" content="LaravelDelhi">
+  <link rel="shortcut icon" href="img/logo/favicon.png" type="image/x-icon">
   <meta name="keyword" content="Laravel, LaravelDelhi, Laravel Meetups, Laravel meetups Delhi, laravel community delhi, laravel open source community, laravel open source meetups, laravel talks, laravelLive India">
 
   <title>Welcome to LaravelLive Delhi</title>
@@ -22,10 +23,22 @@
   <meta property="og:title"       content="Welcome to LaravelLive Delhi" />
   <meta property="og:type"        content="landing-page" />
   <meta property="og:url"         content="https://laravelLiveDelhi.in" />
-  <meta property="og:image"       content="img/laravelliveindia-delhi20171-1.jpg" />
+  <meta property="og:image"       content="img/logo/laravel-live-delhi.png" />
   <meta property="og:image:width" content="600" />
   <meta property="og:image:height" content="600" />
   <meta property="og:description" content="LaravelDelhi is an Open soruce community for Laravel development and brings all open source developer to learn and create stuff for everyone" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41994368-7"></script>
+  
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-41994368-7');
+  </script>
+
 
   <!-- Custom styles for this template -->
   <link href="css/landing-page.css" rel="stylesheet">
@@ -33,7 +46,13 @@
 </head>
 
 <body class="laravel_delhi">
-
+  <div class="pre_loader">
+    <div class="loading_info">
+        <img src="img/logo/favicon_white.png" alt="LaravelLive Delhi" width="100">
+        <p>@LaravelLiveDelhi</p>
+        <p>Please wait...</p>
+    </div>
+  </div>
   <!-- Navigation -->
   <nav class="navbar navbar-light bg-light static-top">
     <div class="container">
@@ -43,10 +62,14 @@
         <button class="btn btn-lg btn-danger"><i class="fab send-o"></i> Buy Tickets</button>
       -->
       <div class="pull-right">
-        <a target="_blank" href="https://allevents.in/gurugram/laravellive-delhi-march-chapter-meetup/80007261754075">
-        <button class="btn btn-danger"><i class="fas fa-paper-plane"></i> Buy Tickets</button>
-      </a>
-      <a target="_blank" href="https://twitter.com/laravelDelhi"><button class="btn btn-info"><i class="fab fa-twitter"></i> @LaravelDelhi</button></a>
+        
+
+        <a target="_blank" href="https://github.com/laraveldelhi/talks/issues/new?assignees=&labels=Proposed&template=talk-proposal-format.md&title=Your+talk+title">
+          <button class="d-none btn btn-danger"><i class="fas fa-envelope fa-fw"></i> Subscribe</button>
+        </a>
+
+
+      <a target="_blank" href="https://twitter.com/laravelDelhi"><button class="btn btn-info"><i class="fab fa-twitter fa-fw"></i> @LaravelDelhi</button></a>
       </div>
       
     </div>
@@ -58,22 +81,30 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h4>Upcoming event</h4>
-          <h1 >LaravelLive Delhi - March Chapter</h1>
-          <h3 class="mb-5"> Sunday, 17th March 2019</h3>
+          <h4 class="meetup_status">...</h4>
+          <h1 class="meetup_name">LaravelLive Delhi...</h1>
+          <h3 class="mb-5"><span class="meetup_time">11:00 AM - 2:00 PM</span> - <span class="meetup_day">Sunday</span>, <span class="meetup_date">Loading date</span></h3>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+          <div class="clearfix"></div>
         <p class="text-center">
-          <!-- <a target="_blank" href="https://twitter.com/laravellivein"><button class="btn btn-lg btn-danger"><i class="fab fa-twitter fa-lg"></i> Follow LaravelLiveIndia</button></a> -->
-          <a target="_blank" href="https://www.facebook.com/LaravelLive-Delhi-394993631065692/"><button class="mb-5 btn btn-lg btn-danger"><i class="fab fa-facebook fa-lg"></i> Learn More</button></a>
+          <a target="_blank" class="meetup_ticket" href="">
+            <button class="btn btn-lg btn-danger"><i class="fas fa-ticket-alt fa-lg"></i> Register now</button>
+          </a>
 
-          <a target="_blank" href="https://github.com/laraveldelhi/talks/issues/new?assignees=&labels=Proposed&template=talk-proposal-format.md&title=Your+talk+title"><button class="mb-5 btn btn-lg btn-light"><i class="fas fa-microphone fa-lg"></i> Submit talk</button></a>
+          <a target="_blank" href="https://bit.ly/submit-talk">
+            <button class="btn btn-lg btn-light"><i class="fas fa-microphone fa-lg"></i> Submit talk</button>
+          </a>
+        
 
         </p>
+        <div class="clearfix"></div>
         </div>
       </div>
     </div>
   </header>
+
+
 
   <!-- Icons Grid -->
   <section class="features-icons bg-light text-center">
@@ -110,10 +141,38 @@
     </div>
   </section>
 
+
+    <!-- Image Showcases -->
+
+
   <!-- Image Showcases -->
-  <section class="showcase">
+  <section class="showcase" id="march-chapter">
     <div class="container-fluid p-0">
-      <div class="row no-gutters">
+
+      <div class="row no-gutters" id="febuary-chapter">
+
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/laravel-live-delhi-april-chapter.jpeg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>April Chapter</h2>
+          <h4><small>28 April 2019</small></h4>
+          <p class="lead mb-0">Amritanshu Kumar (<a target="_blank" href="https://twitter.com/amrtnshu">@amrtnshu</a>) Spoke on Laravel with Vue and Bootstrap.</p>
+          <br>
+          <p class="lead mb-0">Manpreet Rathore (<a target="_blank" href="https://twitter.com/ManpreetRathor2">@ManpreetRathor2</a>) Demonstrated Implementing task scheduling in Laravel.</p>
+        </div>
+      </div>
+
+        <div class="row no-gutters">
+            <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/LaravelLive-delhi-march-2019.jpeg');"></div>
+            <div class="col-lg-6 my-auto showcase-text">
+              <h2>LaravelLive - March chapter</h2>
+              <h4><small>17 March 2018</small></h4>
+              <p class="lead mb-0">Lalit Vijay (<a target="_blank" href="https://twitter.com/lalitvijay">@lalitvijay</a>) from LaravelLive India demystified writing APIs on his talk "Build APIs for Humans".</p>
+              <br>
+              <p class="lead mb-0">Ankit jain (<a target="_blank" href="https://twitter.com/ankitjain28may">@ankitjain28may</a>) took applaudable hands-on and shown "Implementing Laravel Queue".</p>
+            </div>
+        </div>
+
+      <div class="row no-gutters" id="febuary-chapter">
 
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/LaravelLive-delhi-feb-2019.jpeg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
@@ -121,10 +180,12 @@
           <h4><small>24 Feb 2019</small></h4>
           <p class="lead mb-0">Sarthak Aggrawal (<a target="_blank" href="https://twitter.com/Sarthaksavvy">@Sarthaksavvy</a>) from Bitfumes had an amazing session on "Laravel Websockets with Vue" accompanied by a hands on session.</p>
           <br>
-          <p class="lead mb-0">Dheeraj Jha (<a target="_blank" href="https://twitter.com/Thedijje">@thedijje</a>) from SeekGeeks had talk on "Using HTTP Headers Effectively".</p>
+          <p class="lead mb-0">Dheeraj Jha (<a target="_blank" href="https://twitter.com/Thedijje">@thedijje</a>) from SeekGeeks gave an awesome talk on "Using HTTP Headers Effectively".</p>
         </div>
       </div>
-      <div class="row no-gutters">
+
+      
+      <div class="row no-gutters" id="december-chapter">
         <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/laravelDec-Delhi.jpg');"></div>
         <div class="col-lg-6 my-auto showcase-text">
           <h2>December chapter</h2>
@@ -148,12 +209,10 @@
           <h2 class="mb-4">Ready to Thrive at LaravelLive Delhi?</h2>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <!-- <a target="_blank" href="https://allevents.in/mumbai/laravellive-india-2019-conference/80004936401997"> 
+          <a target="_blank" class="meetup_ticket" href="#"> 
             <button class="btn btn-lg btn-light"><i class="fab fa-ticket"></i> Buy Tickets</button>
-          -->
-          <a target="_blank" href="https://allevents.in/gurugram/laravellive-delhi-march-chapter-meetup/80007261754075">
-            <button class="btn btn-lg btn-light"><i class="fas fa-paper-plane-o"></i> Buy Tickets</button>
-          </a>
+          
+         
         </div>
       </div>
     </div>
@@ -188,12 +247,12 @@
         <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
           <ul class="list-inline mb-0">
             <li class="list-inline-item mr-3">
-              <a target="_blank" href="https://www.facebook.com/laravellive/">
+              <a target="_blank" href="https://www.facebook.com/pg/LaravelLive-Delhi-394993631065692">
                 <i class="fab fa-facebook fa-2x fa-fw"></i>
               </a>
             </li>
             <li class="list-inline-item mr-3">
-              <a target="_blank" href="https://twitter.com/laravellivein">
+              <a target="_blank" href="https://twitter.com/laravelDelhi">
                 <i class="fab fa-twitter-square fa-2x fa-fw"></i>
               </a>
             </li>
@@ -213,6 +272,8 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/laravelDelhi.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 </body>
 
