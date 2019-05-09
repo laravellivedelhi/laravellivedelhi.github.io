@@ -1,8 +1,9 @@
 $(document).ready(function(){
         today   =   new Date();
         $.get('data/meetup.json',function(data){
+
         meetup_data   =   data.upcoming_meetup;
-        console.log(meetup_data);
+       
         $('.meetup_name').text(meetup_data.name);
         $('.meetup_time').text(meetup_data.time);
         $('.meetup_day').text(meetup_data.day);
