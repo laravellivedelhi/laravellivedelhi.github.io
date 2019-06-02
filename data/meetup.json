@@ -1,11 +1,11 @@
 {
     "upcoming_meetup":{
-        "date"  :   "26 May 2019",
+        "date"  :   "23 June 2019",
         "time"  :   "11:00 AM - 2:00 PM",
         "day"   :   "Sunday",
-        "name"  :   "LaravelLive Delhi - May chapter",
-        "ticket":   "https://allevents.in/gurugram/80001660220192",
-        "address":  "StyleDotMe - 470 Phase V, Udyog vihar, Sector 19 - Gurgaon",
-        "map_link": "https://goo.gl/maps/afHKMY3wgY91e5QU7"
+        "name"  :   "LaravelLive Delhi - June chapter",
+        "ticket":   "#",
+        "address":  "To be announced",
+        "map_link": "#"
     }
 }
