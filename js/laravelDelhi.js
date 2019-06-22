@@ -8,6 +8,11 @@ $(document).ready(function(){
         $('.meetup_time').text(meetup_data.time);
         $('.meetup_day').text(meetup_data.day);
         $('.meetup_date').text(meetup_data.date);
+        if(meetup_data.address!==''){
+            
+            $('.meetup_address').text(meetup_data.address);
+
+        }
         $('.meetup_ticket').attr('href',meetup_data.ticket);
         
         meetup_date     =   new Date(meetup_data.date);
@@ -27,4 +32,12 @@ $(document).ready(function(){
 
     $('.pre_loader').addClass('d-none');
     
-})
+});
+
+
+$('.meetup_address').click(function(){
+    if($(this).text()!=='To be decided' || $($this).text()!==''){
+        window.open(meetup_data.map_link, '_blank'); 
+        
+    }
+});
