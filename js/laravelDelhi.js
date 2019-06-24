@@ -36,6 +36,8 @@ $(document).ready(function(){
 
         if(today>meetup_date){
             $('.meetup_status').text('Recent event');
+            $('.meetup_ticket').addClass('d-none');
+            $('.volunteer').removeClass('d-none');
         }
         
     });
