@@ -137,8 +137,9 @@ a{
   color:#dc3545;
 }
 
-.navbar a:hover{
+a:hover{
   text-decoration: none;
+  cursor: pointer;
 }
 
 
