@@ -1,3 +1,13 @@
+$(function(){
+    $('#header').load('components/header.html', function(){
+        $('#all_meetups').load('components/meetups.html')
+        $('.pre_loader').addClass('d-none');
+    });
+
+    $('#footer').load('components/footer.html', function(){
+       
+    });
+});
 $(document).ready(function(){
         today   =   new Date();
         $.get('data/meetup.json',function(data){
@@ -30,7 +40,7 @@ $(document).ready(function(){
         
     });
 
-    $('.pre_loader').addClass('d-none');
+    
     
 });
 

@@ -18,10 +18,10 @@ h6 {
   font-weight: 700;
 }
 
-header.masthead {
+header.masthead,.page_head {
   position: relative;
   background-color: #343a40;
-  background: url("../img/LaravelLive-delhi-march-2019.jpeg") no-repeat center center;
+  background: url("../img/background/june-chapter-meetup.jpeg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -34,8 +34,9 @@ header.masthead .overlay {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.6;}
+  opacity: 0.6;
 }
+
 
 header.masthead h1 {
   font-size: 2rem;
@@ -136,6 +137,11 @@ a{
   color:#dc3545;
 }
 
+a:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
+
 
 .meetup{
   background:url('../img/background/laravel_live_delhi_march.jpeg') repeat-x;
@@ -165,3 +171,10 @@ a{
 .meetup_address{
   cursor: pointer;
 }
+
+
+.page_head{
+  background:#dc3545;
+  color:#fff;
+}
+
