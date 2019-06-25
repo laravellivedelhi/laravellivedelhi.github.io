@@ -8,6 +8,12 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+html{
+  max-width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
 h1,
 h2,
 h3,

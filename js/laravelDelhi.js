@@ -30,12 +30,16 @@ $(document).ready(function(){
             $('.meetup_status').text('Current Event');
         }
 
-        if(today<meetup_date){
+        if (today<meetup_date) {
             $('.meetup_status').text('Upcoming event');
         }
 
         if(today>meetup_date){
             $('.meetup_status').text('Recent event');
+            
+        }
+
+        if(meetup_data.ticket==''){
             $('.meetup_ticket').addClass('d-none');
             $('.volunteer').removeClass('d-none');
         }
