@@ -129,6 +129,21 @@ header.masthead h1 {
   opacity: 0.3;
 }
 
+
+.call-to-subscription{
+  background:#fff;
+  color:#dc3545;
+}
+
+input#mc-embedded-subscribe.button {
+  background-color: #e43746 !important;
+ 
+}
+
+form#mc-embedded-subscribe-form {
+  background: #f8f9fa;
+}
+
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
