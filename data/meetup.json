@@ -4,8 +4,8 @@
         "time"  :   "11:00 AM - 2:00 PM",
         "day"   :   "Sunday",
         "name"  :   "LaravelLive Delhi - July chapter",
-        "ticket":   "",
-        "address":  "",
-        "map_link": ""
+        "ticket":   "https://allevents.in/gurugram/80005206079178",
+        "address":  "Tentative: Styledotme, 470 Udyog vihar phase 5, Gurgaon",
+        "map_link": "https://goo.gl/maps/3y152uEkntvZq6jH6"
     }
 }
