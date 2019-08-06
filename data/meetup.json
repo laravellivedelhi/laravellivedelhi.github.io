@@ -1,11 +1,11 @@
 {
     "upcoming_meetup":{
-        "date"  :   "28 July 2019",
+        "date"  :   "25 August 2019",
         "time"  :   "11:00 AM - 2:00 PM",
         "day"   :   "Sunday",
-        "name"  :   "LaravelLive Delhi - July chapter",
-        "ticket":   "https://allevents.in/gurugram/80005206079178",
-        "address":  "MyDesk - 101, Naurang House, 21 KG Marg, New Delhi – 110001",
-        "map_link": "https://maps.app.goo.gl/pejK8pwcCe9QUQcYA"
+        "name"  :   "LaravelLive Delhi - August chapter",
+        "ticket":   "#",
+        "address":  "",
+        "map_link": ""
     }
 }
