@@ -1,11 +1,11 @@
 {
     "upcoming_meetup":{
-        "date"  :   "25 August 2019",
+        "date"  :   "29 September 2019",
         "time"  :   "11:00 AM - 2:00 PM",
         "day"   :   "Sunday",
-        "name"  :   "LaravelLive Delhi - August chapter",
-        "ticket":   "https://allevents.in/gurugram/laravellive-delhi-august-chapter-meetup/80002597715614",
-        "address":  "StyleDotMe - 3rd floor 470, Phase V, Udyog Vihar, Sector 19, Gurugram, Haryana 122008",
-        "map_link": "https://goo.gl/maps/dgGf6AHJZN43TJLFA"
+        "name"  :   "LaravelLive Delhi - September chapter",
+        "ticket":   "#",
+        "address":  "",
+        "map_link": ""
     }
 }
