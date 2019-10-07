@@ -1,11 +1,11 @@
 {
     "upcoming_meetup":{
-        "date"  :   "29 September 2019",
-        "time"  :   "11:00 AM - 2:00 PM",
-        "day"   :   "Sunday",
-        "name"  :   "LaravelLive Delhi - September chapter",
-        "ticket":   "https://allevents.in/delhi/laravellive-delhi-september-chapter/80002074552458",
-        "address":  "Benovellient Technologies PVT LTD, B23/C1 Behind, Fortis Hospital Residential Block, Rasoolpur Nawada, Industrial Area, Sector 62, Noida",
-        "map_link": "https://goo.gl/maps/ZQbYbAQGjwvt5vkT7"
+        "date"  :   "19 October 2019",
+        "time"  :   "11:00 AM - 3:00 PM",
+        "day"   :   "Saturday",
+        "name"  :   "LaravelLive Delhi - Hacktoberfest",
+        "ticket":   "#",
+        "address":  "H-28, ARV Park, Sector 63, Noida",
+        "map_link": "https://goo.gl/maps/Do84n2942e9M1DiA6"
     }
 }
