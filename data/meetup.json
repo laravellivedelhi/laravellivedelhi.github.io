@@ -4,8 +4,8 @@
         "time"  :   "11:00 AM - 3:00 PM",
         "day"   :   "Saturday",
         "name"  :   "LaravelLive Delhi - Hacktoberfest",
-        "ticket":   "#",
-        "address":  "H-28, ARV Park, Sector 63, Noida",
+        "ticket":   "https://allevents.in/noida/80003098370853",
+        "address":  "Webkul head office - H-28, ARV Park, Sector 63, Noida",
         "map_link": "https://goo.gl/maps/Do84n2942e9M1DiA6"
     }
 }
