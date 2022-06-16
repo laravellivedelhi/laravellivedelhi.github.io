@@ -1,11 +1,11 @@
 {
     "upcoming_meetup":{
-        "date"  :   "22 Feb 2019",
-        "time"  :   "11:00 AM - 3:00 PM",
+        "date"  :   "09 July 2022",
+        "time"  :   "11:00 AM - 2:00 PM",
         "day"   :   "Saturday",
-        "name"  :   "LaravelLive Delhi - February chapter meetup",
-        "ticket":   "https://allevents.in/gurgaon/80001463859874",
-        "address":  "Collegedunia Web Private Limited - Gurgaon ",
-        "map_link": "https://g.page/collegedunia-web-private-limited?share"
+        "name"  :   "LaravelLive Delhi - July chapter meetup",
+        "ticket":   "https://allevents.in/noida/laravellive-delhi-|-july-chaptger/80002119912850",
+        "address":  "Webkul - Noida ",
+        "map_link": "https://g.page/webkul?share"
     }
 }
