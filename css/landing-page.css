@@ -202,15 +202,17 @@ a:hover{
 
 .sponsors_logo img{
   max-height:100px;
-  max-width:100px;
+  width:auto;
   margin:30px;
-  filter: grayscale(100%);
   border-radius:20px;
 }
 
-.sponsors_logo img:hover{
-  filter: grayscale(0%);
+
+.sponsors_logo{
+  max-width: 100%;
+  overflow-x: scroll;
 }
+
 
 img {
   transition-duration: 1s;
