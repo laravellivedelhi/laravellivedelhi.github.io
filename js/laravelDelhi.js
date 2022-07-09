@@ -7,6 +7,15 @@ $(function(){
     $('#footer').load('components/footer.html', function(){
        
     });
+
+    var utc = new Date().toJSON().slice(0,10).replace(/-/g,'/');
+
+    if(utc=='2022/07/09'){
+        $('#livestream').load('components/live.html', function(){
+       
+        });
+    }
+    
 });
 $(document).ready(function(){
         today   =   new Date();
