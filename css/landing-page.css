@@ -27,7 +27,7 @@ h6 {
 header.masthead,.page_head {
   position: relative;
   background-color: #343a40;
-  background: url("../img/background/laravel-live-delhi-hero.jpeg") no-repeat center center;
+  background: url("../img/background/hacktober-fest-2022.png") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -40,7 +40,7 @@ header.masthead .overlay {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 
