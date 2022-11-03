@@ -11,6 +11,10 @@ $(function(){
     $('#livestream').load('components/live.html', function(){
        
     });
+
+    $('#join-laravelDelhi').load('components/join.html', function(){
+       
+    });
     
 });
 $(document).ready(function(){
