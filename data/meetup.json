@@ -1,10 +1,10 @@
 {
     "upcoming_meetup":{
-        "date"  :   "15 Oct 2022",
+        "date"  :   "19 Nov 2022",
         "time"  :   "11:00 AM - 2:00 PM",
         "day"   :   "Saturday",
-        "name"  :   "LaravelLive Delhi - Hacktober chapter meetup",
-        "ticket":   "https://allevents.in/manage/tickets/book.php?event_id=80002347941028",
+        "name"  :   "LaravelLive Delhi - November chapter meetup",
+        "ticket":   "https://allevents.in/noida/80001289266807",
         "address":  "Webkul - Noida ",
         "map_link": "https://g.page/webkul?share"
     }
