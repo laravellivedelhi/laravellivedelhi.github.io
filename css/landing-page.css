@@ -27,8 +27,6 @@ h6 {
 header.masthead,.page_head {
   position: relative;
   background-color: #343a40;
-  background: url("../img/background/IMG_20221015_142213.jpeg") no-repeat center center;
-  background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
