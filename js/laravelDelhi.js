@@ -27,6 +27,8 @@ $(document).ready(function(){
         $('.meetup_time').text(meetup_data.time);
         $('.meetup_day').text(meetup_data.day);
         $('.meetup_date').text(meetup_data.date);
+        $('.watch-live').addClass('d-none');
+
         if(meetup_data.address!==''){
             
             $('.meetup_address').text(meetup_data.address);
@@ -37,6 +39,7 @@ $(document).ready(function(){
         meetup_date     =   new Date(meetup_data.date);
         if(today==meetup_date){
             $('.meetup_status').text('Current Event');
+            $('.watch-live').removeClass('d-none');
         }
 
         if (today<meetup_date) {
