@@ -18,7 +18,7 @@ $(function(){
     
 });
 $(document).ready(function(){
-        today   =   new Date();
+        today   =   new Date().toDateString();
         $.get('data/meetup.json',function(data){
 
         meetup_data   =   data.upcoming_meetup;
@@ -30,16 +30,17 @@ $(document).ready(function(){
         $('.watch-live').addClass('d-none');
 
         if(meetup_data.address!==''){
-            
             $('.meetup_address').text(meetup_data.address);
-
         }
         $('.meetup_ticket').attr('href',meetup_data.ticket);
         
-        meetup_date     =   new Date(meetup_data.date);
+        meetup_date     =   new Date(meetup_data.date).toDateString();
         if(today==meetup_date){
             $('.meetup_status').text('Current Event');
-            $('.watch-live').removeClass('d-none');
+        }
+
+        if(meetup_data.live_link && meetup_data.live_link != '' && today==meetup_date){
+            $('.watch-live').attr('href',meetup_data.live_link).removeClass('d-none');
         }
 
         if (today<meetup_date) {
