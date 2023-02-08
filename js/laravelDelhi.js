@@ -49,7 +49,6 @@ $(document).ready(function(){
 
         if(today>meetup_date){
             $('.meetup_status').text('Recent event');
-            
         }
 
         if(meetup_data.ticket==''){
