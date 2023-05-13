@@ -1,12 +1,12 @@
 {
     "upcoming_meetup":{
-        "date"  :   "29 Apr 2023",
+        "date"  :   "20 May 2023",
         "time"  :   "11:00 AM - 2:00 PM",
         "day"   :   "Saturday",
-        "name"  :   "LaravelLive Delhi - April chapter meetup",
-        "ticket":   "https://allevents.in/new%20delhi/laravellive-delhi-april-chapter-meetup-2023/80001113612997",
-        "address":  "JNU - New Delhi",
-        "map_link": "https://goo.gl/maps/BEdPWfa6ekVjyaX57",
-        "live_link":"https://www.youtube.com/watch?v=YttsQ7p088E"
+        "name"  :   "LaravelLive Delhi - May chapter meetup",
+        "ticket":   "https://my.allevents.in/laravelDelhi-2023-may-chapter-meetup",
+        "address":  "Cybiz Centre, Udyog Vihar Ph-4, Gurgaon,
+        "map_link": "https://goo.gl/maps/m7CiUe9AZEHLVWrTA",
+        "live_link":""
     }
 }
