@@ -21,7 +21,7 @@ $(document).ready(function(){
         today   =   new Date().toDateString();
         $.get('./data/meetup.json',function(meetup_json){
 
-        meetup_json = JSON.parse(meetup_json);
+        //meetup_json = JSON.parse(meetup_json);
         var meetup_data   =   meetup_json.upcoming_meetup;
        
         $('.meetup_name').text(meetup_data.name);
