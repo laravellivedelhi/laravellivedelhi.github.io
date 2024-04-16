@@ -29,6 +29,7 @@ $(document).ready(function(){
         $('.meetup_day').text(meetup_data.day);
         $('.meetup_date').text(meetup_data.date);
         $('.watch-live').addClass('d-none');
+        event_id    =   meetup_data.event_id;
 
         if(meetup_data.address!==''){
             $('.meetup_address').text(meetup_data.address);
@@ -50,6 +51,13 @@ $(document).ready(function(){
 
         if(today>meetup_date){
             $('.meetup_status').text('Recent event');
+        }
+
+        // if isset event id and is not empty, on clicking button book_ticket_button, call AE.showTicketModal(event_id) function
+        if(event_id && event_id != ''){
+            $('.book_ticket_button').click(function(){
+                AE.showTicketModal(event_id);
+            });
         }
 
         if(meetup_data.ticket==''){
