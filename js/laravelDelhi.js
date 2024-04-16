@@ -19,9 +19,10 @@ $(function(){
 });
 $(document).ready(function(){
         today   =   new Date().toDateString();
-        $.get('data/meetup.json',function(data){
+        $.get('./data/meetup.json',function(meetup_json){
 
-        meetup_data   =   data.upcoming_meetup;
+        meetup_json = JSON.parse(meetup_json);
+        var meetup_data   =   meetup_json.upcoming_meetup;
        
         $('.meetup_name').text(meetup_data.name);
         $('.meetup_time').text(meetup_data.time);
