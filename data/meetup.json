@@ -1,13 +1,13 @@
 {
     "upcoming_meetup":{
-        "date"  :   "18 May 2024",
+        "date"  :   "29 June 2024",
         "time"  :   "11:00 AM - 2:00 PM",
         "day"   :   "Saturday",
-        "name"  :   "LaravelLive Delhi - May chapter meetup",
-        "ticket":   "https://allevents.in/noida/80002847575111",
+        "name"  :   "LaravelLive Delhi - June chapter meetup",
+        "ticket":   "https://allevents.in/noida/80002902468201",
         "address":  "Webshot - Noida",
         "map_link": "https://maps.app.goo.gl/5XQ7xyqqXPuGTY7j8",
         "live_link":"",
-        "event_id":"80002847575111"
+        "event_id":"80002902468201"
     }
 }
